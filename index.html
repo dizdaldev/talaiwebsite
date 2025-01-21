@@ -3,110 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TalAI Robosub Team</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #0066cc;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header img {
-            max-width: 150px;
-            margin: 1rem auto;
-            display: block;
-        }
-
-        nav {
-            background-color: #004b99;
-            text-align: center;
-            padding: 0.5rem 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-size: 1.2rem;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 1rem;
-        }
-
-        .about, .projects, .contact {
-            margin-bottom: 2rem;
-        }
-
-        .about h2, .projects h2, .contact h2 {
-            font-size: 2rem;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 0.5rem;
-        }
-
-        footer {
-            background-color: #004b99;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 1rem;
-        }
-    </style>
+    <title>Talai - Underwater Systems Team</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="talailogo.jpeg" alt="TalAI Robosub Team Logo">
-        <h1>Welcome to TalAI Robosub Team</h1>
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Talai</h1>
+        <p>Innovating the depths of underwater exploration.</p>
     </header>
-    <nav>
-        <a href="#about">About Us</a>
-        <a href="#projects">Our Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section class="about" id="about">
-            <h2>About Us</h2>
-            <p>We are the TalAI Robosub Team, dedicated to pushing the boundaries of autonomous underwater robotics. Our team comprises passionate engineers, programmers, and enthusiasts working together to innovate and excel in competitions worldwide.</p>
-        </section>
 
-        <section class="projects" id="projects">
-            <h2>Our Projects</h2>
-            <p>Our flagship project is the development of an autonomous underwater vehicle (AUV) capable of completing complex tasks and challenges. Stay tuned for updates on our progress and achievements!</p>
-        </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Talai is an innovative team focused on designing and building unmanned underwater systems. Our mission is to push the boundaries of underwater exploration and technology.</p>
+    </section>
 
-        <section class="contact" id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: <a href="mailto:talai.mechanix@gmail.com">talai.mechanix@gmail.com</a></p>
-            <p>Follow us on social media for the latest updates and insights.</p>
-        </section>
-    </div>
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <h3>Project Neptune</h3>
+            <p>An autonomous underwater vehicle for marine research.</p>
+        </div>
+        <div class="project">
+            <h3>Deep Dive Bot</h3>
+            <p>A high-depth exploration robot designed for extreme conditions.</p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>1st Place in XYZ Robotics Challenge 2024</li>
+            <li>Innovation Award at Marine Tech Expo 2023</li>
+            <li>Finalist at Global Underwater Competition 2025</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>Meet the Team</h2>
+        <div class="team-member">
+            <h3>Jane Doe</h3>
+            <p>Lead Engineer</p>
+        </div>
+        <div class="team-member">
+            <h3>John Smith</h3>
+            <p>Software Specialist</p>
+        </div>
+        <div class="team-member">
+            <h3>Emily Davis</h3>
+            <p>Electronics Expert</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 TalAI Robosub Team. All rights reserved.</p>
+        <p>&copy; 2025 Talai - All Rights Reserved</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
